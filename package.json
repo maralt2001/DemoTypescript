@@ -1,0 +1,16 @@
+{
+  "name": "demo-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "start": "node build/app.js",
+    "dev": "ts-node src/app.ts",
+    "build": "tsc -p ."
+  }
+}
