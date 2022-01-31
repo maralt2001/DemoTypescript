@@ -9,12 +9,12 @@ const todo = {
         created: new Date()
     }
 };
-function Print(element) {
+function print(element) {
     console.log(element);
 }
-Print(todo);
+print(todo);
 // Test array und functions
 const someNumbers = [2, 7, 8, 6, 4, 21];
-let filter = (Utilities_1.filterItems)(someNumbers, 10);
-let items = (Utilities_1.multiplyTwo)(someNumbers);
+let filter = (0, Utilities_1.filterItems)(someNumbers, 10);
+let items = (0, Utilities_1.multiplyTwo)(someNumbers);
 console.log(filter, items);

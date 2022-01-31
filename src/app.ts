@@ -12,11 +12,11 @@ const todo: Todo<DataExtensionDate> = {
     }
 }
 
-function Print (element:Todo<DataExtensionDate>) : void {
+function print (element:Todo<DataExtensionDate>) : void {
     console.log(element);
 }
 
-Print(todo);
+print(todo);
 
 // Test array und functions
 const someNumbers = [2, 7, 8, 6, 4, 21]
